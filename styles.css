@@ -16,8 +16,12 @@
     8) Space those buttons from the left & right - we want to make sure they're not touching 
     the edges of the slides, but adequately spaced
 */
-
+body {
+  margin: 0;
+  padding: 0;
+}
 .carousel {
+  margin: 200px auto;
   max-width: 600px;
   position: relative;
 }
